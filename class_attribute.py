@@ -1,6 +1,6 @@
 class Human(object):
     def __init__(self, input_gender):
-        self.gender = input_gender
+        self.gender = input_gender  #attribute gender
     def printGender(self):
         print self.gender
 

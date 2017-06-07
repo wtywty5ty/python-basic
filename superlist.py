@@ -1,5 +1,5 @@
-class superList(list):
-    def __sub__(self, b):
+class superList(list):  # list is a built-in class
+    def __sub__(self, b): # re-define substrate -
         a = self[:]
         b = b[:]
         while len(b) > 0:
